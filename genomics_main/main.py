@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 
 currentDirectory = os.path.dirname(os.path.realpath(__file__))
 print(currentDirectory)
-outfile = open(currentDirectory + '/outfile.txt', 'w')
+outfile = open(currentDirectory + '/generated_files/outfile.txt', 'w')
 
 vcf = pysam.VariantFile(currentDirectory + '/experiment_0.vcf')
 samples = np.array(vcf.header.samples)
@@ -77,8 +77,8 @@ plt.subplot(224)
 plt.hist(heteroArr, bins=50, edgecolor='black', linewidth=1.0)
 plt.xlabel('Heterozygot')
 
-plt.savefig(currentDirectory + '/3_plots.png')
-print('\n\nQuestion 3\n Plots saved in a file 3_plots.png', file=outfile)
+plt.savefig(currentDirectory + '/generated_files/3_plots.png')
+print('\n\nQuestion 3\nPlots saved in a file 3_plots.png', file=outfile)
 
 # Question 4:
 from scipy.stats import chisquare
