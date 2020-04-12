@@ -4,6 +4,7 @@ Number of people in the experiment: 200
 Number of infected people: 100
 Number of healthy people: 100
 
+
 Question 2
 Number of mutations in total: 1340823
 chromosome 1 | mutations num 102842
@@ -28,3 +29,7 @@ chromosome 19 | mutations num 19172
 chromosome 20 | mutations num 33382
 chromosome 21 | mutations num 18402
 chromosome 22 | mutations num 17819
+
+
+Question 3
+ Plots saved in a file 3_plots.png
