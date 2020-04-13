@@ -5,7 +5,7 @@ genomic_main/main.py is the script for generating the answers to next questions:
 - **Q2**: What is the number of mutations per chromosome? What is the total number of mutations?
 - **Q3**: Generate histograms: Minor Allele Frequency, Percantage of REF Allele Homozygot, Percentage of ALT Allele Homozygot, Percentage of Heterozygot (per mutation)
 - **Q4**: Run chi-square test, do you need to apply multiple testing correction? If yes, apply it. Preview this on Manhattan Diagram. See the results with Hardy-Weinberg equilibrium.
-- **Q5**: Using UCSC Genome browser and Omim website fint the information about deseases for genes identified as probable causes.
+- **Q5**: Using UCSC Genome browser and Omim website find the information about diseases connected to one or more genes shown significant in the experiment.
 
 All generated files are in *generated_files* folder.
 
