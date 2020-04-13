@@ -9,4 +9,4 @@ genomic_main/main.py is the script for generating the answers to next questions:
 
 All generated files are in *generated_files* folder.
 
-You can also run the code here: https://colab.research.google.com/drive/1XEzV1tGHgnz4kWGpy_nA8XaSndYKHc4W#scrollTo=zPknwjdsGTmP
+You can also run the code here: https://colab.research.google.com/drive/1XEzV1tGHgnz4kWGpy_nA8XaSndYKHc4W
