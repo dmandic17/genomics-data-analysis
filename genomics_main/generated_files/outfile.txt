@@ -7,29 +7,53 @@ Number of healthy people: 100
 
 Question 2
 Number of mutations in total: 1340823
-chromosome 1 | mutations num 102842
-chromosome 2 | mutations num 114870
-chromosome 3 | mutations num 92888
-chromosome 4 | mutations num 85336
-chromosome 5 | mutations num 86532
-chromosome 6 | mutations num 95476
-chromosome 7 | mutations num 74002
-chromosome 8 | mutations num 76756
-chromosome 9 | mutations num 65374
-chromosome 10 | mutations num 72903
-chromosome 11 | mutations num 67554
-chromosome 12 | mutations num 66884
-chromosome 13 | mutations num 56428
-chromosome 14 | mutations num 44790
-chromosome 15 | mutations num 38680
-chromosome 16 | mutations num 37876
-chromosome 17 | mutations num 30975
-chromosome 18 | mutations num 41882
-chromosome 19 | mutations num 19172
-chromosome 20 | mutations num 33382
-chromosome 21 | mutations num 18402
-chromosome 22 | mutations num 17819
+        Num. of mutations
+chr 1              102842
+chr 2              114870
+chr 3               92888
+chr 4               85336
+chr 5               86532
+chr 6               95476
+chr 7               74002
+chr 8               76756
+chr 9               65374
+chr 10              72903
+chr 11              67554
+chr 12              66884
+chr 13              56428
+chr 14              44790
+chr 15              38680
+chr 16              37876
+chr 17              30975
+chr 18              41882
+chr 19              19172
+chr 20              33382
+chr 21              18402
+chr 22              17819
 
 
 Question 3
- Plots saved in a file 3_plots.png
+Plots saved in a file 3_plots.png
+
+
+Question 4:
+4a -> Running chi-square...
+Done.
+4b -> The correction is neccesary, because we have over one milion mutations, and that effects the limit for p-value.
+I'm using Bonferroni correction so as the limit I'm using 0.05/len(data) in code I used len(chi2) but it is the same length.
+Bonferroni correction is just changing the limit, but there are also other corrections in use.
+4c -> Plots saved in a file 4c_manhattan.png
+4d -> Running HWE...
+Done
+Plot after hwe saved in a file 4d_manhattan.png
+
+
+Question 5:
+[('chromosome: 1', 'position: 16896217')]
+UCSC Genome Browser: Chromosome 1, position 16896217 constains gene called NBPF1. (GRCh37/hg19)
+NBPF stands for neuroblastoma breakpoint family, member 1. 
+NBPF1 is a Protein Coding gene. Diseases associated with NBPF1 include Astrocytoma and Neuroblastoma. (GeneCard)
+More info on colab: https://colab.research.google.com/drive/1XEzV1tGHgnz4kWGpy_nA8XaSndYKHc4W#scrollTo=PUKNRrJq8VsI
+
+
+Finished.
